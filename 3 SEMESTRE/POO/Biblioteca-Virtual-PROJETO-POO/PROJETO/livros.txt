@@ -1,0 +1,11 @@
+id, título, autor, editora
+1; A biblioteca da meia noite; autor Matt Haig;
+2; Harry potter; J.K Rowling;;
+3; A paciente silenciosa; Alex Michaelides;;
+4; O principe cruel; Holly Black;;
+5; Os suicidas; Raphael Monte;;
+6; Debaixo das rodas de um automovel; Rogerio Skylab;;
+7; Flores Para Algernon; Daniel Keys;;
+8; Pessoas normais; Sally Rooney;;
+9; Percy Jackson; Rick Riordan;;
+10; A sociedade de Atlas; Olive Blake;;
