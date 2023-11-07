@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<biblioteca>
+    <livros isbn="324252">
+        <titulo>Java</titulo>
+        <autores>
+            <nome>Fulano de Tal</nome>
+            <nome>Fulano de Tal</nome>
+        </autores>
+    </livros>
+    <livros isbn="525364">
+        <titulo>Java</titulo>
+        <autores>
+            <nome>Siclanoo de Tal</nome>
+            <nome>Siclano de Tal</nome>
+        </autores>
+    </livros>
+</biblioteca>

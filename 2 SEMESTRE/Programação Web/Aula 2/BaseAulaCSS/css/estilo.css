@@ -1,0 +1,23 @@
+p{
+    color: rgb(0, 0, 0);
+    font-size: 20pt;
+}
+
+body{
+    background: linear-gradient(rgb(70, 12, 104), rgb(191, 15, 207));
+    background-attachment: fixed;
+}
+
+.caixa{
+    background-color: rgb(242, 237, 231);
+    text-align: justify;
+    padding: 20px;
+    border: 5px dashed ;
+    width: 500px;
+    border-radius: 10px;
+
+}
+
+.sombra{
+    box-shadow: 10px 10px 10px #491f48;
+}

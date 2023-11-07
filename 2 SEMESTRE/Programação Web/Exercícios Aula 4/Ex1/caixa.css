@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.caixa1{
+    margin: 100px;
+    padding: 100;
+    border-radius: 100px;
+    align-items:center;
+    background-color: red;
+}
+
+.caixa2{
+    border-radius: 5px;
+}

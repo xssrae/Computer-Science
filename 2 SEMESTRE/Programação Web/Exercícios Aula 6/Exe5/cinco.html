@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Exercícios Aula 6/Exe5/exe5.css">
+</head>
+<body>
+    <main>
+        <button type="button" id="btn1">Cronômetro</button>
+        <button type="button" id="btn2">Slide show</button>
+        <button type="button" id="btn3">Tabuada</button>
+        
+        <!-- DIV INICIAL -->
+        <div id="divInicial">
+            <p>Clique nas abas acima.</p>
+        </div>
+
+        <!-- DIV DO CRONÔMETRO -->
+        <div id="divCronometro">
+            <div id="txtNum"></div>
+        </div>
+
+        <!-- DIV DAS IMAGENS -->
+        <div id="divSlide">
+            <div id="conteudo">
+                <img src="/Exercícios Aula 6/Exe5/imagens/img1.jpg" id="imagens"><br>
+                <input type="button" id="ant" value="Anterior">
+                <input type="button" id="prox" value="Próxima">
+            </div>
+        </div>
+
+        <!-- DIV DA TABUADA -->
+        <div id="divTabuada">
+            Digite o número da tabuada que deseja calcular:<br>
+            <form>
+                <input type="text" id="txtNumTab">
+                <input type="button" id="btntab" value="Calcular">
+            </form>
+            <div id="restab"></div>
+        </div>
+
+        <script src="slide.js"></script>
+        <script src="cronometro.js"></script>
+        <script src="img.js"></script>
+
+    </main>
+</body>
+</html>

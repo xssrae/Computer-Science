@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+    <title>Document</title>
+    <style>
+       
+        #h1{
+            text-align: center;
+            color: white;
+        }
+
+        #p1{
+            text-align: center;
+            color: white;
+        }
+
+        hr{
+           border-color: black;
+        }
+
+        form{
+            text-align: center;
+        }
+
+        input{
+            width: 350px; 
+            height: 25px;
+            border-radius: 10px;
+        }
+
+        article{
+            border-radius: 30px;
+            background-color: rgb(165, 71, 42);
+            width: 500px;
+            height: 500px;
+            margin: 0 auto;
+            
+        }
+
+
+        #i1{
+           height:25px;
+           text-align: center;
+        }
+
+        .from{
+            text-align: center;
+            width: 350px; 
+            height: 25px;   
+        }
+
+        button{
+            border-radius: 10px;
+            position: relative;
+            cursor: pointer;
+        
+        }
+
+
+        #i2{
+            width: 350px; 
+            height: 25px;
+            border-radius: 10px;
+        }
+
+
+        textarea{
+            width: 350px; 
+            height: 100px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <article>
+    <h1 id="h1">Formulario de contato</h1>
+    <p id="p1"> Preencha todos os campos</p>
+    <hr>
+
+    <form>
+    <strong>Nome:</strong>
+    <input type="text" name="txtnome"required autofocus><br><br><br>
+
+    <STRONG>Email:</STRONG>
+    <input type="email" name="txtemail" required><br><br><br>
+
+
+    <strong class="form">Assunto</strong>
+   
+    
+    <select id="i2" name="assunto" class="op">
+    <option value="assunto" class="op">Contratos</option>
+    <option value="assunto" class="op">Caridade</option>
+    <option value="assunto" class="op">Churrasco</option>
+
+
+
+    </select><br><br><br>   
+
+
+    <strong class="form">Mensagem</strong>
+    <textarea name="msg" rows="5"cols="40"></textarea><br><br>  
+   
+     <button class="form">Enviar</button>
+    </form> 
+
+    </article>
+</body>
+</html>

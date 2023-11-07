@@ -1,0 +1,17 @@
+.aprovado{
+    color: #00f;
+}
+
+.reprovado{
+    color: #f00;
+}
+
+.exame{
+    color: rgb(248, 133, 25);
+}
+
+
+table > *{
+    border: 1px black solid;
+    text-align: center;
+}

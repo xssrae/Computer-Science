@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+  <book>
+    <titulo>Harry Potter and the Philosopher's Stone</titulo>
+    <autor>J.K. Rowling</autor>
+    <data_publicacao>1997-06-26</data_publicacao>
+    <qtde>5</qtde>
+  </book>
+  <book>
+    <titulo>The Hitchhiker's Guide to the Galaxy</titulo>
+    <autor>Douglas Adams</autor>
+    <data_publicacao>1979-10-12</data_publicacao>
+    <qtde>3</qtde>
+  </book>
+  <book>
+    <titulo>To Kill a Mockingbird</titulo>
+    <autor>Harper Lee</autor>
+    <data_publicacao>1960-07-11</data_publicacao>
+    <qtde>7</qtde>
+  </book>
+  <book>
+    <titulo>1984</titulo>
+    <autor>George Orwell</autor>
+    <data_publicacao>1949-06-08</data_publicacao>
+    <qtde>2</qtde>
+  </book>
+  <book>
+    <titulo>The Lord of the Rings</titulo>
+    <autor>J.R.R. Tolkien</autor>
+    <data_publicacao>1954-07-29</data_publicacao>
+    <qtde>6</qtde>
+  </book>
+  <book>
+    <titulo>Pride and Prejudice</titulo>
+    <autor>Jane Austen</autor>
+    <data_publicacao>1813-01-28</data_publicacao>
+    <qtde>4</qtde>
+  </book>
+  <book>
+    <titulo>The Great Gatsby</titulo>
+    <autor>F. Scott Fitzgerald</autor>
+    <data_publicacao>1925-04-10</data_publicacao>
+    <qtde>1</qtde>
+  </book>
+  <book>
+    <titulo>One Hundred Years of Solitude</titulo>
+    <autor>Gabriel García Márquez</autor>
+    <data_publicacao>1967-05-30</data_publicacao>
+    <qtde>8</qtde>
+  </book>
+  <book>
+    <titulo>The Catcher in the Rye</titulo>
+    <autor>J.D. Salinger</autor>
+    <data_publicacao>1951-07-16</data_publicacao>
+    <qtde>2</qtde>
+  </book>
+  <book>
+    <titulo>The Hunger Games</titulo>
+    <autor>Suzanne Collins</autor>
+    <data_publicacao>2008-09-14</data_publicacao>
+    <qtde>5</qtde>
+  </book>
+</biblioteca>

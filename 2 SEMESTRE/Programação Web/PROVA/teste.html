@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<style>
+table, td {
+border: 1px solid black;
+color: #616161;
+text-align: center;
+font-size: 125%;
+}
+h1, div{ text-align: center;}
+</style>
+</head>
+<body onload="geratable();">
+
+<p>Click para listar o valor das células.</p>
+<button onclick="myFunction_00()">Pega Valores</button>
+<button onclick="myFunction_01()">Altera Cor</button>
+<br>
+<h1>Tabela 7 x 9</h1>
+<div id="ex3"></div>
+<p id="tst"></p>
+
+<script>
+var R=0, D=document, tabela;
+
+setTimeout(function(){
+//ALTERA O VALOR DA CÉLULA ESPECIFICADA
+var alvo=tabela.rows[4].cells[3];
+alvo.innerHTML = "|X|";
+alvo.style.color="yellow";
+alvo.style.textShadow = "1px 1px #000";
+},1000);
+
+function myFunction_00() {
+var x="", r=0, c=0, br="", value="", valor="";
+var C=D.getElementById("myTable_00").rows[r].cells.length;
+	for (r=0;r<R-1;r++){
+	value="";
+		for (c=0;c<C;c++){
+		valor=D.getElementById("myTable_00").rows[r].cells[c].innerHTML;
+		value+=valor+"|";
+			if (c==6){x="\""+valor+"\"<br>";
+			}else{x="\""+valor+"\"";
+			}
+		D.getElementById("tst").innerHTML += " RC: " +r+c+" : <font color='#F00'><b>"+x+"</b></font>";
+		}
+	console.log("Linha: "+value);
+	}
+}
+
+function myFunction_01() {
+console.log("R: "+R);
+var count=0;
+	for (var linha=0;linha<(R-1);linha++) {
+		for (var coluna=0;coluna<7;coluna++) {
+		var VALOR = tabela.rows[linha].cells[coluna].innerHTML;
+		tabela.rows[linha].cells[coluna].style.textShadow = "1px 1px #000";
+			if (linha%2==0){ tabela.rows[linha].cells[coluna].style.color="yellow";
+			}
+		}
+	}
+}
+
+function geratable(){
+var html="<table id=\"myTable_00\" align=\"center\" cellspacing=5 cellpadding=1 border=1 align=center> " 
+html+="<tr>";
+	for (var lin=0;lin<9;lin++) {
+		for (var col=0;col<7;col++) {
+		html+="<td>"+lin+":"+col;
+		html+="</td>"
+		if (col>0 && col%6==0) html+="</tr><tr>"
+		}
+	}
+html+="</tr></table>"
+D.getElementById("ex3").innerHTML=html
+R=D.getElementById('myTable_00').rows.length;
+tabela=D.getElementById("myTable_00");
+
+}
+</script>
+</body>
+</html>
+ 

@@ -1,0 +1,23 @@
+body {
+    background-color: #000033;
+}
+
+table {
+    border-radius: 5%;
+    background: rgb(0, 131, 253);
+    color: rgba(0, 0, 0, 0.694);
+    line-height: 30px;
+    text-align: center;
+    width: 300px;
+}
+
+.cab {
+    background: #000033;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.cont {
+    background: #05054b;
+    font-size: 14px;    
+}

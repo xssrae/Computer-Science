@@ -1,0 +1,22 @@
+Algoritmo: Agência Bancária;
+
+Início {
+    Literal tipoConta;
+    Real valorInvestido, rendiMencal, totalJuros;
+    Inteiro i;
+
+    enquanto (i>0) {
+        Escreva("Informe seu tipo de conta: ");
+        Leia(tipoConta);
+        Escreva("Informe o valor do investimento: ");
+        Leia(valorInvestido);
+    }
+
+    se (tipoConta == "poupanca") {
+        totalJuros = valorInvestido + (valorInvestido*0.015);
+    } se (tipoConta == "poupanca plus") {
+        totalJuros = valorInvestido + (valorInvestido*0.02);
+    } senao {
+        totalJuros = valorInvestido + (valorInvestido*0.04);
+    }
+}
